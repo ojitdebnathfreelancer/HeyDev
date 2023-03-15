@@ -7,10 +7,10 @@ const initialState = {
     error: '',
 }
 
-
 export const getData = createAsyncThunk("home/getData", async () => {
     const res = await fetch('information.json')
     const data = await res.json()
+    console.log(data);
     return data
 })
 
@@ -27,7 +27,6 @@ const landingPageSlice = createSlice({
             state.data = action.payload;
             state.loading = false;
             state.error = '';
-            console.log(action.payload);
         })
         builder.addCase(getData.rejected, (state, action) => {
             state.isError = true;
