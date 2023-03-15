@@ -1,0 +1,50 @@
+[
+    {
+        "landingPageTitle": "ARDEO",
+        "banner": {
+            "firstTitle": {
+                "firstPart": "pursue",
+                "secondPart": "your passions"
+            },
+            "secondTitle": {
+                "firstPart": "secure",
+                "secondPart": "your peace of mind"
+            }
+        },
+        "info": {
+            "tableData": {
+                "firstRowText": "At Seattle Pacific University, we have partnered with Aredo to help you protect your college investment with with a Loan Repayment Assistence benifit called LRAP at no cost to you.",
+                "secondRowText": "If you earn less then $46,000 after gradution, we can help repay your student loans.",
+                "secondRowDollar": "46,000"
+            },
+            "questions": [
+                {
+                    "question": "How It Works",
+                    "ans": "Accept your LRAP Award and enroll at Saettle Pacific University in the 2023 to 2024 academic year, After graduating with a bacholors degree, If you are earing less then $46, 000, we will remebuers you for some or all of your converd student loan payments."
+                },
+                {
+                    "question": "Converd Loans",
+                    "ans": "LRAP covers all Federal student and parent PLUS loans, as well as privet alternative loans, up to $17,000 per academic year and $70,000 in total."
+                },
+                {
+                    "question": "After Graduation",
+                    "ans": "To quality for remebursment, you must obtain employment, working 30 plus hours per week accross any number of jobs, in any field. It dose not even need to be related to your degree. Assicestance and continue untill you earn more then $46,000 or your loans are fully repid.",
+                    "note": "This is summary. Tearms & conditions apply. See your LRAP Award for full detail."
+                }
+            ]
+        },
+        "footer": {
+            "title": "As Feautured In",
+            "aredoAbout": {
+                "title": "About Aredo Education Soluations",
+                "body": "Aredo partners with colleges across with U.S. to help students overcome the burden of students loans."
+            },
+            "contacts": {
+                "title": "contact us",
+                "post": "P.O. Box 1476",
+                "location": "Bloomington, IN 47402",
+                "email": "info@myLRAP.org"
+            }
+        }
+    }
+]

@@ -1,0 +1,29 @@
+.banner {
+    background: linear-gradient(rgb(214, 113, 20, 0.3), rgb(214, 113, 20, 0.3)),
+        url('../../../assets/banner/libery.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+.tow-btn div h1:first-child::after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: -10px;
+    transform: translateY(-50%);
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    background: #820000;
+}
+
+@media screen and (max-width: 320px) {
+    .tow-btn div h1:first-child::after {
+        width: 10px;
+        height: 10px;
+        top: 40%;
+        right: -5px;
+    }
+}
