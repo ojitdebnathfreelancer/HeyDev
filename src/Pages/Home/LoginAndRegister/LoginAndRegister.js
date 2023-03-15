@@ -6,8 +6,8 @@ import Registation from '../Registation/Registation';
 const LoginAndRegister = () => {
     const [toggle, setToggle] = useState(true);
     return (
-        <div className=''>
-            <div className='bg-white py-5 mt-5'>
+        <div className='lg:mx-0 md:mx-0 max-w-[350px] mx-auto'>
+            <div className='bg-white max-w-[350px] py-5 mt-5'>
                 <div className="slide-controls">
                     <input type="radio" name="slide" id="login" />
                     <input type="radio" name="slide" id="signup" />
@@ -32,7 +32,7 @@ const LoginAndRegister = () => {
                     <div className="slider-tab"></div>
                 </div>
             </div>
-            <div className=' flex max-w-[350px] overflow-hidden'>
+            <div className='flex max-w-[350px] overflow-hidden'>
                 <div className={`${toggle ? '-ml-[100%]' : 'ml-0'}`}>
                     <Login />
                 </div>

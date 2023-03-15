@@ -32,7 +32,7 @@ const Main = () => {
                 data?.length !== 0 ?
                     <div className='min-h-screen flex flex-col justify-between'>
                         <div>
-                            <div className='lg:mb-28 md:mb-28 mb-16'>
+                            <div className='lg:mb-28 md:mb-24 mb-12'>
                                 <Header />
                             </div>
                             <Outlet />
